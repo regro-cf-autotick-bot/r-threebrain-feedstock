@@ -1,4 +1,4 @@
-{% set version = '0.2.7' %}
+{% set version = "0.2.9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/threeBrain_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/threeBrain/threeBrain_{{ version }}.tar.gz
-  sha256: 5d97caa521bc09887ed8719bcb2202597e2e1b662ee6893d6b57407cf580e9bf
+  sha256: 919a068a4d3cd9d107c60c7b786647a2c4703389f3dd73a62d50c73e5b2ee7b7
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -74,7 +74,7 @@ about:
     for details.
   license_family: GPL3
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
     - LICENSE
 
 extra:

@@ -1,11 +1,11 @@
-About r-threebrain
-==================
+About r-threebrain-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-threebrain-feedstock/blob/main/LICENSE.txt)
 
 Home: https://dipterix.org/threeBrain/ https://github.com/dipterix/threeBrain
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-threebrain-feedstock/blob/main/LICENSE.txt)
 
 Summary: A fast, interactive cross-platform, and easy to share 'WebGL'-based 3D brain viewer
 that visualizes 'FreeSurfer' and/or 'AFNI/SUMA' surfaces. The viewer widget can
